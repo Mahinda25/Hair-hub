@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #bbd11b;
+  background: #0c0c0c;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -92,12 +92,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top i {
   font-size: 24px;
-  color: #bd6fb0;
+  color: #fc08d7;
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #c4c626;
-  color: #e054c4;
+  background: #a12b04;
+  color: ;
 }
 .back-to-top.active {
   visibility: visible;
@@ -384,7 +384,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #34b7a7;
+  background: #4f0101;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -423,8 +423,8 @@ section {
   color: #fff;
 }
 .cta .cta-btn:hover {
-  background: #34b7a7;
-  border: 2px solid #34b7a7;
+  background: #db06d1;
+  border: 2px solid #e30eb8;
 }
 @media (max-width: 1024px) {
   .cta {
@@ -640,7 +640,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Resume
+# reviews
 --------------------------------------------------------------*/
 .resume .resume-title {
   font-size: 26px;
@@ -652,7 +652,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #34b7a7;
+  border-left: 2px solid #e60fa9;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -660,7 +660,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #1d685f;
+  color: #d2129f;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -670,7 +670,7 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #34b7a7;
+  color: #d30ca1;
 }
 .resume .resume-item ul {
   padding-left: 20px;
@@ -689,8 +689,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #34b7a7;
+  background: bisque;
+  border: 2px solid #d50ed5;
 }
 
 /*--------------------------------------------------------------
@@ -713,88 +713,32 @@ section {
   transition: ease-in-out 0.3s;
   position: relative;
 }
-.services .icon-box .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
+.services .portfolio-wrap img {
+  height: 300px; 
+  object-fit: cover; 
 }
-.services .icon-box .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
+
+.filters {
+  position: sticky;
+  top: 20px; 
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  height: fit-content;
 }
-.services .icon-box .icon svg path {
-  transition: 0.5s;
-  fill: #f5f5f5;
+
+.filter-item {
+  margin-bottom: 15px;
 }
-.services .icon-box h4 {
-  font-weight: 600;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
-.services .icon-box h4 a {
-  color: #222222;
-  transition: ease-in-out 0.3s;
-}
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-.services .iconbox-blue i {
-  color: #47aeff;
-}
-.services .iconbox-blue:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
-}
-.services .iconbox-orange i {
-  color: #ffa76e;
-}
-.services .iconbox-orange:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
-}
-.services .iconbox-pink i {
-  color: #e80368;
-}
-.services .iconbox-pink:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-pink:hover .icon path {
-  fill: #e80368;
-}
-.services .iconbox-yellow i {
-  color: #ffbb2c;
-}
-.services .iconbox-yellow:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
-}
-.services .iconbox-red i {
-  color: #ff5828;
-}
-.services .iconbox-red:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-red:hover .icon path {
-  fill: #ff5828;
-}
-.services .iconbox-teal i {
-  color: #11dbcf;
-}
-.services .iconbox-teal:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
-}
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -965,11 +909,11 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #34b7a7;
+  color: #e014aa;
   float: left;
   width: 44px;
   height: 44px;
-  background: #effbf9;
+  background: #fbeffb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -993,19 +937,19 @@ section {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #34b7a7;
-  color: #fff;
+  background: #c105a8;
+  color: bisque;
 }
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: bisque;
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
 }
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: bisque;
   background: #ed3c0d;
   text-align: center;
   padding: 15px;
@@ -1013,7 +957,7 @@ section {
 }
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: bisque;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1021,7 +965,7 @@ section {
 }
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: bisque;
   text-align: center;
   padding: 15px;
 }
@@ -1043,7 +987,7 @@ section {
   font-size: 14px;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #34b7a7;
+  border-color: #b534b7;
 }
 .contact .php-email-form input {
   height: 44px;
@@ -1052,15 +996,15 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #34b7a7;
+  background: #b734a8;
   border: 0;
   padding: 10px 30px 12px 30px;
-  color: #fff;
+  color: bisque;
   transition: 0.4s;
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #3dc8b7;
+  background: #c83dc8;
 }
 @-webkit-keyframes animate-loading {
   0% {
