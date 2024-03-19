@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top:hover {
   background: #a12b04;
-  color: ;
+  color: rgb(21, 1, 19);
 }
 .back-to-top.active {
   visibility: visible;
